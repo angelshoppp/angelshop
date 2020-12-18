@@ -22,9 +22,8 @@ body
 
 #logo
 {
-    width: 50px;
-    height: 50px;
-    margin: 5px;
+    width: 55px;
+    height: 55px;
     margin-right: 10px;
     float: left;
 }
@@ -107,7 +106,7 @@ a, a:hover, a:active, a:link, a:checked
 .itemname
 {
     color: #d65158;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .slogan
