@@ -4,38 +4,39 @@
 
 body
 {
-    background-image: url("back.jpg");
+    background-image: url("b3.jpeg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px;
+    margin: 0;
 }
+
 #nav
 {
     position: relative;
-    background-color: #ffffff6b;
-    height: 80px;
-    padding: 10px;
+    background-color: #ffe2b6b0;
+    width: 100%;
+    height: 65px;
+    padding: 5px;
 }
 
 #logo
 {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     margin-right: 10px;
     float: left;
 }
 
 #shopname
 {
-    font-size: 30px;
+    font-size: 25px;
     color: #d65158;
 }
 
 #call
 {
-    float: right;
-    top: -40px;
+    float: left;
     position: relative;
     border: 3px solid rgba(255, 140, 87, 0.829);
     border-radius: 5px;
@@ -48,17 +49,17 @@ body
 
 #callicon
 {
-    width: 30px;
-    height: 30px;
+    width: 18px;
+    height: 18px;
     float: left;
 }
 
 #number
 {
     color: green;
-    padding: 3px;
-    font-size: 23px;
-    height: 30px;
+    padding: 2.5px;
+    font-size: 13px;
+    height: 18px;
     background-color: inherit;
     float: left;
 }
@@ -71,41 +72,41 @@ a, a:hover, a:active, a:link, a:checked
 #address
 {
     color: #ff572282;
+    font-size: x-small;
+    display: none;
 }
 
 #container
 {
-    padding: 2.5%;
+    padding: 5%;
     padding-right: 0%;
-    height: fit-content;
 }
 
 .row
 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    position: relative;
 }
 
 .box
 {
-    width: 14.75%;
-    background-color: rgba(255, 255, 255, 0.397);
-    margin-right: 2.5%;
-    margin-bottom: 2.5%;
+    width: 45%;
+    background-color: rgba(255, 255, 255, 0.58);
+    margin-right: 5%;
+    margin-bottom: 5%;
+    float: left;
 }
 
 .itemimg
 {
     width: 100%;
-    height: 250px;
+    height: 150px;
     opacity: 1;
 }
 
 .itemname
 {
     color: #d65158;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .slogan
@@ -115,7 +116,33 @@ a, a:hover, a:active, a:link, a:checked
 
 #addressbar
 {
-    display: none;
+    padding: 3px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(204, 232, 255, 0.226);
+    border: 1px solid rgba(220, 220, 220, 0);
+    border-radius: 3px;
+}
+
+#addressicon
+{
+    width: 15px;
+    height: 22px;
+    margin-left: 35%;
+}
+
+#address2
+{
+    color: #d65158;
+    font-size: 12px;
+}
+
+a:active, a:hover, a:link, a:visited
+{
+    text-decoration: none;
+    color: inherit;
+    background-color: rgba(0, 0, 255, 0);
 }
 
 .waste
