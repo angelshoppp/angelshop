@@ -162,7 +162,7 @@ a:active, a:hover, a:link, a:visited
 
 #footer
 {
-    border-top: 3px solid #ff0000;
+    border-top: 1px solid #ff0000;
     background-color: #ff6947d9;
     padding: 5px;
     height: 75px;
@@ -221,7 +221,7 @@ a:active, a:hover, a:link, a:visited
     margin-top: 12px;
     float: right;
     position: absolute;
-    top: 2855px;
+    top: 2865px;
     right: 5px;
 }
 
