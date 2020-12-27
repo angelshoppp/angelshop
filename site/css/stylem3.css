@@ -81,7 +81,7 @@ a, a:hover, a:active, a:link, a:checked
 {
     padding: 5%;
     padding-right: 0%;
-    height: 2715px;
+    height: 2750px;
 }
 
 .row
@@ -218,6 +218,9 @@ a:active, a:hover, a:link, a:visited
 {
     margin-top: 12px;
     float: right;
+    position: absolute;
+    top: 2855px;
+    right: 5px;
 }
 
 #dev_con
@@ -230,4 +233,9 @@ a:active, a:hover, a:link, a:visited
     font-size: 13px;
     float: left;
     padding-top: 3px;
+}
+
+#extra
+{
+    height: 20px;
 }
