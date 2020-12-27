@@ -81,6 +81,7 @@ a, a:hover, a:active, a:link, a:checked
 {
     padding: 5%;
     padding-right: 0%;
+    height: 2715px;
 }
 
 .row
@@ -157,4 +158,76 @@ a:active, a:hover, a:link, a:visited
 #hide
 {
     display: none;
+}
+
+#footer
+{
+    border-top: 5px solid #ff0000;
+    background-color: #ff6947d9;
+    padding: 5px;
+    height: 75px;
+    color: #fffffff0;
+}
+
+#follow
+{
+    float: left;
+    margin-right: 10px;
+    font-size: large;
+}
+
+#facebook
+{
+    float: left;
+    margin: 5px;
+    margin-left: 18px;
+    
+}
+
+#insta
+{
+    float: left;
+    margin: 5px;
+}
+
+#youtube
+{
+    margin: 5px;
+    float: left;
+}
+
+#facebookico
+{
+    width: 20px;
+    height: 20px;
+}
+
+#instaico
+{
+    width: 20px;
+    height: 20px;
+}
+
+#youtubeico
+{
+    width: 20px;
+    height: 20px;
+}
+
+#dev
+{
+    margin-top: 12px;
+    float: right;
+}
+
+#dev_con
+{
+    float: left;
+}
+
+#dev_name
+{
+    font-size: 13px;
+    float: left;
+    padding-top: 3px;
 }
