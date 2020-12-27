@@ -181,19 +181,21 @@ a:active, a:hover, a:link, a:visited
     float: left;
     margin: 5px;
     margin-left: 18px;
-    
+    margin-top: 15px;
 }
 
 #insta
 {
     float: left;
     margin: 5px;
+    margin-top: 15px;
 }
 
 #youtube
 {
     margin: 5px;
     float: left;
+    margin-top: 15px;
 }
 
 #facebookico
@@ -216,7 +218,6 @@ a:active, a:hover, a:link, a:visited
 
 #dev
 {
-    margin-top: 12px;
     float: right;
     position: absolute;
     top: 2855px;
