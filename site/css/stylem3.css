@@ -58,7 +58,8 @@ body
 #number
 {
     color: green;
-    padding: 2.5px;
+    padding: 1.5px;
+    padding-left: 3px;
     font-size: 13px;
     height: 18px;
     background-color: inherit;
@@ -235,9 +236,4 @@ a:active, a:hover, a:link, a:visited
     font-size: 13px;
     float: left;
     padding-top: 3px;
-}
-
-#extra
-{
-    height: 20px;
 }
