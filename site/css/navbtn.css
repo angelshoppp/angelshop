@@ -1,0 +1,32 @@
+._nav{
+    background-color: yellow;
+    color: blue;
+}
+
+._navlist{
+    line-height: 30px;
+    text-align: center;
+}
+
+._list{
+    border-top: 1px solid rgb(207, 7, 7);
+}
+
+._navcont{
+    height: 50px;
+    padding: 10px;
+}
+
+._navbtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+._body{
+    position: absolute;
+    background-color: blue;
+    width: 100%;
+}
